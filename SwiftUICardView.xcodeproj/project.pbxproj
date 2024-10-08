@@ -14,6 +14,7 @@
 		1DC971ED2CB534F4000158BC /* SwiftUICardViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC971EC2CB534F4000158BC /* SwiftUICardViewTests.swift */; };
 		1DC971F72CB534F4000158BC /* SwiftUICardViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC971F62CB534F4000158BC /* SwiftUICardViewUITests.swift */; };
 		1DC971F92CB534F4000158BC /* SwiftUICardViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC971F82CB534F4000158BC /* SwiftUICardViewUITestsLaunchTests.swift */; };
+		1DC972062CB53507000158BC /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC972052CB53507000158BC /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		1DC971F22CB534F4000158BC /* SwiftUICardViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUICardViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DC971F62CB534F4000158BC /* SwiftUICardViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICardViewUITests.swift; sourceTree = "<group>"; };
 		1DC971F82CB534F4000158BC /* SwiftUICardViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICardViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1DC972052CB53507000158BC /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				1DC971DD2CB534F3000158BC /* ContentView.swift */,
 				1DC971DF2CB534F4000158BC /* Assets.xcassets */,
 				1DC971E12CB534F4000158BC /* Preview Content */,
+				1DC972052CB53507000158BC /* CardView.swift */,
 			);
 			path = SwiftUICardView;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DC971DE2CB534F3000158BC /* ContentView.swift in Sources */,
+				1DC972062CB53507000158BC /* CardView.swift in Sources */,
 				1DC971DC2CB534F3000158BC /* SwiftUICardViewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
